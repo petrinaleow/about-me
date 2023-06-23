@@ -20,12 +20,27 @@ body {
 }
 
 #profile {
-	text-align: center;
+	text-align: left;
+	display:flex;
 }
 
 #profile-pic {
-	border-radius: 50%;
 	width: 200px;
 	height: 200px;
-	margin: auto;
+}
+
+#profile-desc {
+	color: purple;
+	font-size: 30px;
+	font-family: 'Ysabeau Office', sans-serif;
+	font-weight: 1000;
+	line-height: 30px;
+	letter-spacing: 1px;
+	padding-top:63px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
 }
